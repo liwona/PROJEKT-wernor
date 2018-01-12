@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    .menu A {
+        font-size: 12px;   
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+    /* STYLES HERE */
+    .logo A img{
+        width:70%;
+    }
+
+    .menu A {
+        font-size: 16px;   
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .foto_work {
+        float: none;
+        width: 70%;
+        margin: 20px auto;
+        display: block;
+    }
+}

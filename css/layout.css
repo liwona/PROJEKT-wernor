@@ -1,0 +1,100 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* START wspólne */
+.color {
+    color:rgb(201, 177, 172) !important;
+}
+
+.color_2 {
+    color:rgb(30, 30, 30) !important;
+}
+
+.bgcolor {
+    background-color:rgb(201, 177, 172) !important;
+}
+/* END wspólne */
+
+/* START menu */
+.menu {
+	padding: 10px 0px;
+	background: rgba(30, 30, 30, 0.999);
+	text-align:center;
+    z-index:16;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+}
+
+.menu .row {
+    display: flex;
+    align-items: center;
+}
+
+.logo A img{
+    width:20%;
+}
+
+.menu A {
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+}
+/* END menu */
+
+/* START slider */
+
+#carousel-example-generic2 .item{
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: 75px;
+    left: 0px;
+}
+/* END slider */
+
+/* START about */
+.about {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.foto_work {
+    width: 300px;
+    float: left;
+    margin-right: 10px ;
+}
+
+H3 {
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.work {
+    display: block;
+    text-align: justify;
+    line-height: 1.8;
+}
+/* END about */
+
+/* START projects */
+.projects {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+/* END projects */
